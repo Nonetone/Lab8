@@ -1,0 +1,11 @@
+detectors:
+ IrresponsibleModule:
+  enabled: false
+ UncommunicativeVariableName:
+  enabled: false
+ UncommunicativeModuleName:
+  enabled: false
+ TooManyStatements:
+  max_statements: 25
+ FeatureEnvy:
+  enabled: false

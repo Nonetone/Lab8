@@ -1,0 +1,27 @@
+<p>Результат:</p>
+<% arr = @happy_result %>
+<% num = 0 %>
+<p id="result"></p>
+    <table border = "1">
+      <tr>
+        <th>Номер</th>
+        <th>Число</th>
+      </tr>
+      <% arr.each do |number| %>
+       <tr>
+            <td>
+             <%= num+=1 %>
+            </td>
+            <td>
+             <%= number %>
+            </td>
+        </tr>
+    <% end %>
+<table>
+
+<%= link_to "Повторить для другого числа", :my_user_input %>
+
+
+
+
+

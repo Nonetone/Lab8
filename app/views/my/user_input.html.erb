@@ -1,0 +1,6 @@
+<%= form_tag("/my/user_output", :method => "get") do %>
+<<%= %>>
+<%= label_tag("Введите n:") %>
+<%= number_field_tag(:happynum) %> <br/><br/>
+<%= submit_tag("Найти счастливые") %>
+<% end %>
